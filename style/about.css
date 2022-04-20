@@ -8,11 +8,28 @@ body {
   .hidden {
     display: none;
   }
-  
+  .aboutDetails{
+    margin: 10% 0;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: large;
+  }
   #project{
     color: white;
   }
-
+  .resumeCenter{
+    display: flex;
+    align-items: center;
+  }
+  .resume{
+    padding: 10px 25px;
+    background-color: #04F0FF;
+    border: none;
+    width: 100%;
+    margin: 20%;
+    cursor: pointer;
+  }
   #about{
     color: #04F0FF;
   }
