@@ -1,6 +1,7 @@
 body {
     font-family: "Times New Roman", sans-serif;
-    height: 97vh;
+    height: 100vh;
+    margin: 0;
   }
   .display{
     background-color:rgba(0, 0, 0, 0.9);
@@ -12,8 +13,7 @@ body {
   .grid-container {
     display: grid;
     grid-template-columns: 3% auto;
-    height: 97vh;
-    border: 2pt solid black;
+    height: 100vh;
 
     
   }
@@ -118,7 +118,7 @@ body {
   }
   .titleBody {
       
-    height: 97vh;
+    height: 100vh;
     position: relative;
   }
   .title{

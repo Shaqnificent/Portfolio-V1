@@ -13,9 +13,8 @@ body {
 
   }
   .display{
-    background-color:white;
-    display: grid;
-    grid-template-rows: auto;
+    background-color:rgba(0, 0, 0, 0.7);
+   
   }
   .hidden {
     display: none;
@@ -51,8 +50,8 @@ body {
   .grid-container {
     display: grid;
     grid-template-columns: 30% auto;
-    height: 100vh;
-   
+    height:100vh;
+    
 
     
   }
@@ -199,6 +198,8 @@ body {
       font-weight:bolder;
       color:blue;
   }
+
+
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
