@@ -7,19 +7,23 @@ body {
     display: grid;
     grid-template-rows: 10% 10% 10%;
     padding: 20% 0%;
-  
-    
-    
-
   }
   .display{
-    background-color:rgba(0, 0, 0, 0.7);
+    
+    display: grid;
+    grid-template-rows: 24% 24% 24% 24%;
+    padding: 0.5%;
    
   }
   .hidden {
     display: none;
   }
-
+  .items{
+    display: grid;
+    grid-template-columns: 20vh auto;
+   
+    
+  }
   #project{
     color: #04F0FF;
   }
