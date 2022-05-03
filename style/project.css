@@ -143,15 +143,18 @@ body {
     margin-left: 50px;
   }
   .imgSocial{
-    width: 30px;
-    padding: 5px;
+    width: 90%;
+    height: 90%;
+    padding: 1%;
+    object-fit: cover;
+
    
   }
   .imgGrid{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    align-content:space-around;
+    display: flex;
     justify-content: space-around;
+    align-content:space-around;
+    
     
     
   }
