@@ -1,6 +1,7 @@
 module.exports = {
   // darkMode: false,
-  content: ["./*.{html,js}"],
+  content: ["./**/*.{html,js}"],
+  
   theme: {
     extend: {},
   },
